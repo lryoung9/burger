@@ -19,4 +19,4 @@ npm install
 
 ## Main Dishes
 
-## Desert
+## Desserts
