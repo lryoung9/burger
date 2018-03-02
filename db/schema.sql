@@ -11,5 +11,5 @@ CREATE TABLE burgers (
 --      * **burger_name**: a string.
 	burger_name VARCHAR(100) NOT NULL,
 --      * **devoured**: a boolean.
-	devoured BOOLEAN NOT NULL
+	devoured BOOLEAN NOT NULL DEFUALT false
 );
