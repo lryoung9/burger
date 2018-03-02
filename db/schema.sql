@@ -1,4 +1,3 @@
--- Write SQL queries this file that do the following:
 DROP DATABASE IF EXISTS burgers_db;
 --    * Create the `burgers_db`.
 CREATE DATABASE burgers_db;
@@ -6,10 +5,10 @@ CREATE DATABASE burgers_db;
 USE burgers_db;
 --    * Create a `burgers` table with these fields:
 CREATE TABLE burgers (
---      * **id**: an auto incrementing int that serves as the primary key.
-	id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
---      * **burger_name**: a string.
+	-- **id**: an auto incrementing int that serves as the primary key.
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	-- **burger_name**: a string.
 	burger_name VARCHAR(100) NOT NULL,
---      * **devoured**: a boolean.
-	devoured BOOLEAN NOT NULL DEFUALT false
+	-- **devoured**: a boolean
+	devoured BOOLEAN NOT NULL DEFAULT false
 );
