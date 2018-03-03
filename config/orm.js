@@ -1,12 +1,6 @@
 // Import MySQL connection
 var connection = require("../config/connection.js");
 
-// Export the orm object for the model
-module.exports = orm;
-
-// Import MySQL connection.
-var connection = require("../config/connection.js");
-
 // Helper function for SQL syntax.
 function printQuestionMarks(num) {
   var arr = [];
